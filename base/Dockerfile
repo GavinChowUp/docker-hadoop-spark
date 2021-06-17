@@ -40,7 +40,7 @@ ENV MULTIHOMED_NETWORK=1
 ENV USER=root
 ENV PATH $HADOOP_HOME/bin/:$PATH
 
-ADD entrypoint.sh /entrypoint.sh
+ADD entrypoidefaultFSnt.sh /entrypoint.sh
 
 RUN chmod a+x /entrypoint.sh
 

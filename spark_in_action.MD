@@ -58,7 +58,7 @@ We slaan hier de database stap over. Feel free om zelf een PostgreSQL database t
 
 ```
 from pyspark.sql import SparkSession
-from pyspark.sql import functions as F
+from pyspark.sql import functions as Fls
 
 absolute_file_path = "hdfs://namenode:8020/data/sparkinaction/authors.csv"
 
